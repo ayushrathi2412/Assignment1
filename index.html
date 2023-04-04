@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home" class="container">
+    <nav>
+        <div class="logo">AR<b>.</b></div>
+        <ul class="navitems">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#trailer">Trailer</a></li>
+            <li><a href="#address">Address</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="cols cols0">
+            <span class="topline">Hello</span>
+            <h1>I'm <span class="multitext">Ayush Rathi</span></h1>
+        </div>
+        <div class=" cols cols1">
+            <div class="imgbox">
+                <img src="homebg.png" id="splash">
+                <img src="ayushimg1.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="aboutimage.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p data-aos="zoom-in">Hi there! My name is Ayush Rathi. I'm pursuing my BTech degree from Vit Vellore, and currently I'm in my second year. From childhood to the present, I have tried many new things, some of which I have continued and some of which I have not, but those that I have continued have become my hobby or, such as art, reading novels, chess, basketball, and, most importantly, travelling, as only through that do I explore myself. I'm currently trying my hand at a variety of things in an effort to find the precise field for my future. So that's the end of my brief summary.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Interests')">Interests</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span></li>
+                        <li><span>C progarmming</span></li>
+                        <li><span>SQL</span></li>
+                        <li><span>Video Editing</span></li>
+                        <li><span>SME</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Interests">
+                    <ul>
+                        <li><span>Reading</span></li>
+                        <li><span>Art</span></li>
+                        <li><span>Basketball</span></li>
+                        <li><span>Exploring new things</span></li>
+                        <li><span>Travelling</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="schedule" class="timetable">
+    <div class="schedulee">
+        <h1>Semester Timetable</h1>
+    </div>
+    <div class="table1">
+        <table border="5" cellspacing="3" align="center">
+            <tr>
+             <td align="center"></td>
+             <td align="center">8:00-8:50</td>
+             <td align="center">9:00-9:50</td>
+             <td align="center">10:00-10:50</td>
+             <td align="center">11:00-11:50</td>
+             <td align="center">12:00-12:50</td>
+             <td align="center">Lunch</td>
+             <td align="center">2:00-3:40</td>
+             <td align="center">3:50-5:30</td>
+             <td align="center">5:40-7:20</td>
+            </tr>
+            <tr>
+             <td align="center">MON</td>
+             <td align="center"><font>--<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Random<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Probability<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">DSP<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">ACS<br></td>
+             <td rowspan="5"align="center">L<br><br>U<br><br>N<br><br>C<br><br>H</td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+            </tr>
+            <tr>
+             <td align="center">TUE</td>
+             <td align="center" bgcolor="#a17a69"><font color="white">DSP<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">ACS<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">STS<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">MCT<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">MCT Lab<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">DSP Lab<br></td>
+             <td align="center"><font>--<br></td>
+            </tr>
+            <tr>
+             <td align="center">WED</td>
+             <td align="center" bgcolor="#a17a69"><font color="white">MCT<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Random<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">ACS Lab<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+            </tr>
+            <tr>
+             <td align="center">THU</td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Probability<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">DSP<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">ACS<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">STS<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+             
+            </tr>
+            <tr>
+             <td align="center">FRI</td>
+             <td align="center" bgcolor="#a17a69"><font color="white">STS<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">MCT<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Random<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Probability<br></td>
+             <td align="center" bgcolor="#a17a69"><font color="white">Probability Lab<br></td>
+             <td align="center"><font>--<br></td>
+             <td align="center"><font>--<br></td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<div id="trailer" class="trailerr">
+    <h2 align="center">Recently watched movie trailer</h2>
+    <iframe width="80%" height="80%" class="bhola" src="https://www.youtube.com/embed/K-EMszLvRIQ" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1 data-aos="zoom-in"> BHOLAA </h1>
+</div>
+<div id="address" class="addresss">
+    <h1 align="center">Address</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0409982296064!2d79.1537449139956!3d12.96922841844137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad479f0ccbe067%3A0xfef222e5f36ecdeb!2sVellore%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1679862579407!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <img src="locationbg.png" class="location">
+</div>
+<section id="contact" class="contactt">
+    <div class="content">
+        <h2>Contact Info</h2>
+    </div>
+    <div class="contain">
+        <div class="contactinfo" data-aos="slide-right">
+            
+            <div class="box">
+                <div class="icon">
+                    <a href="mailto:ayush.rathi25@gmail.com" target="_blank">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Email</h3>
+                    <p>ayush.rathi25@gmail.com</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/ayush-rathi-a34019146" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Linkedin</h3>
+                    <p>Ayush Rathi</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <a href="https://instagram.com/ayush_rathi25?igshid=YmMyMTA2M2Y=" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="text">
+                    <h3>Instagram</h3>
+                    <p>ayush_rathi25</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactform" data-aos="zoom-in">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputbox">
+                    <input type="text" name="" required="required">
+                    <span>Email</span>
+                </div>
+                <div class="inputbox">
+                    <textarea required="required"></textarea>
+                    <span>Type your Message...</span>
+                </div>
+                <div class="inputbox">
+                    <input type="submit" name="" value="Send">
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script>
+    var typingEffect = new Typed(".multitext",{
+        strings : ["Ayush Rathi","Web Developer","Freelancer"],
+        loop : true,
+        typeSpeed :120,
+        backSpeed : 80,
+        startDelay: 1000,
+        backDelay : 1500
+    })
+</script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 300,
+        duration: 1000,
+    });
+</script>
+   
+</body>
+</html>
